@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Necológica</title>
+
+  <!-- Bootstrap Core CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  
+  <!-- Icono -->
+  <link rel="shortcut icon" href="img/favicon.jpg" />
+  
+  
+</head>
+
+<body id="page-top">
+
+
+<body>
+  <!-- Navigation -->
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="text-aling:center;color:#3c7b6a;background-color:#ffffff;min-height:50px;">
+   <a class="navbar-brand" style="text-aling:center;color:#3c7b6a;background-color:white;left:100px;margin-right:0" href="index.html"><h2 style="padding-left: 90px;padding-right: 90px; padding-top: 30px;margin-bottom:0;font-family:necobold;color:white"><img class="img-fluid" src="img/3.png" alt="" style="max-width:310px;width:80%;position:fixed;left:1.3%;top:27px;margin-right:20px">.......</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation" style="color:#3c7b6a;border-color:#3c7b6a;margin-top: 16px;padding-top: 6px;padding-bottom: 6px;">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="navbar-collapse collapse " id="navbarCollapse" style="text-aling:right;color:#3c7b6a;background-color:white;margin-top:0px;margin-left:15%">
+      <ul class="navbar-nav mr-auto" style="text-alig:right;color:#3c7b6a;background-color:white;">
+	  <br>
+        <li class="nav-item " style="text-aling:center;color:#3c7b6a;background-color:white;">
+          <h2 class="" style="font-size:160%;padding-top:24px;"><a  href="serv.html" style="margin-left:20px; padding-top:20px;text-decoration:none;">Servicios</a></h2>
+        </li>
+        <li class="nav-item">
+          <h2 class="" style="font-size:160%;padding-top:24px;"><a  href="prod.html" style="margin-left:20px; padding-top:20px;text-decoration:none;">Productos</a></h2>
+        </li>
+        <li class="nav-item" style="text-aling:center;color:#3c7b6a;background-color:white;">
+          <h2 class="" style="font-size:160%;padding-top:24px;"><a  href="info.html" style="margin-left:20px; padding-top:20px;text-decoration:none;color:#bb8037">Información</a></h2>
+        </li>
+        <li class="nav-item active" style="text-aling:center;color:#3c7b6a;background-color:white;">
+          <h2 class="" style="font-size:160%;padding-top:24px;"><a  href="even.html" style="margin-left:20px; padding-top:20px;text-decoration:none;">Novedades</a></h2>
+        </li>
+        <li class="nav-item active" style="text-aling:center;color:#3c7b6a;background-color:white;">
+          <h2 class="" style="font-size:160%;padding-top:24px;"><a  href="noso.html" style="margin-left:20px; padding-top:20px;text-decoration:none;">Nosotros</a></h2>
+        </li>
+        <li class="nav-item active" style="text-aling:center;color:#3c7b6a;background-color:white;right:20px">
+          <h2 class="" style="font-size:160%;padding-top:24px;font-weight:450"><a  href="https://www.facebook.com/neco.logica/" style="margin-left:20px; padding-top:20px;text-decoration:none;"><i class="fab fa-facebook-f pr-1"></i></a>  <a  href="https://www.instagram.com/necologica/" style="margin-left:20px; padding-top:20px;text-decoration:none;"><i class="fab fa-instagram pr-1"></i></a>  </h2>
+        </li>
+		
+		
+      </ul>
+      
+    </div>
+  </nav>
+
+<main role="main">
+
+<br>
+<br>
+<br>
+
+<div class="container mt-3" style="text-align:center; vertical-align:middle;align-items:center;" >
+
+</br>
+
+
+  <div class="form-inline" action="#table" style="margin-left:auto;margin-right:auto;width:100%">
+  <h4 style="margin-left:auto;margin-right:auto;width:92%"> <input class="form-control" action="#table" id="myInput" type="text" placeholder="Buscar en necológica..." style="margin-left:auto;margin-right:auto;width:80%"> <a href="#table"  style="font-family:necobold;text-decoration:none" type="submit" style="text-align:left">Buscar</a></h4>
+  <br>
+  </div>
+  
+	
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<br>
+
+</body>
+
+
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#mytab div").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<!-- <div id="graphcomment"></div> -->
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'necologica',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
+  };
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>
+  </div></div>
+
+
+  <div class="album py-5 bg-light" id="mytab">
+    <div class="container">
+
+      <div class="row">
+	  <td>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px;">
+            <img width="100%" height="225" src="img/pilas/pilas.jpg" >
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>PILAS, UN RESIDUO PELIGROSO</b></p> <p class="card-text" style="font-family:necocur">¿Hay una correcta disposición final de las pilas y baterías en Necochea y Quequén?...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/pila.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/colillas/colillas.jpg" style="border-top-left-radius:5px;border-top-right-radius:5px">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>COLILLAS DE CIGARILLOS</b></p> <p class="card-text" style="font-family:necocur">En enero de 2020, Necológica se registra como embajadora de “Proyecto Reciclemos”...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/colillas.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/todoparaellos/tpe.jpg">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>¿QUE ES "TODO PARA ELLOS"?</b></p> <p class="card-text" style="font-family:necocur">Asociación civil sin fines de lucro, tiene como fin la atención de personas jóvenes y adultas...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/todoparaellos.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>		
+        	
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/agroquimicos/agro.jpg" style="border-top-left-radius:5px;border-top-right-radius:5px">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>ENVASES DE AGROQUIMICOS</b></p> <p class="card-text" style="font-family:necocur">El lavado de los envases puede ser realizado por el productor o por el aplicador...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/agroquimicos.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/aceite/aceite.jpg" style="border-top-left-radius:5px;border-top-right-radius:5px">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037;font-weight:650">ACEITE USADO</p> <p class="card-text" style="font-family:necocur">Es todo aquel aceite proveniente, en forma continua o discontinua, de establecimiento...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/aceite.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+		
+				
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/medicamentos/medicamentos.jpg">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>MEDICAMENTOS VENCIDOS</b></p> <p class="card-text" style="font-family:necocur">Actualmente el Colegio de Farmacéuticos de Necochea implementa el programa...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/medicamentos.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+		
+				
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="margin-bottom:2.5rem!important;border-radius:5px">
+            <img width="100%" height="225" src="img/sin/sin1.jpg">
+            <div class="card-body">
+              <p class="card-text" style="font-family:necocur;color:#bb8037"><b>RESIDUOS SIN DESTINO EN NECOCHEA/QUEQUEN</b></p> <p class="card-text" style="font-family:necocur">¿Qué residuos hoy no tienen un destino en Necochea y Quequén?...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <a href="info/sindestino.html" style="font-family:necobold;text-decoration:none;text-align:center;padding-left: 110px;">Ver Más</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+		</td>
+		
+        
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+</body>
+
+  <footer class="footer text-center" style="background-color:#3c7b6a; padding-top:40px; padding-bottom:10px;width:100%;">
+  
+
+  
+  <!-- <h5 style="color:white">Mail: <a href="mailto:holanecologica@gmail.com" style="color:white">holanecologica@gmail.com</a></h5>
+ <h5 style="color:white">Dirección: Calle 59 3550, Necochea</h5>  
+      </br> -->
+	<div class="container">	  
+      <big style="color:white">Copyright &copy; Necologica 2020</big>
+	  </br> </br>
+	  <a href="https://mascleta.com.ar" style="color:white;text-decoration:none"><big>Diseño Mascletá</big></a>
+	  </br>
+	 
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
